@@ -14,9 +14,11 @@ export default class App extends React.PureComponent {
   render() {
     const MainNavigator = TabNavigator(
       {
+
         monthlist: { screen: MonthList },
         form: { screen: Form },
         month: { screen: Month }
+        
       },
       {
         navigationOptions: {
